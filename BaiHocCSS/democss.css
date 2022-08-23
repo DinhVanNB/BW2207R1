@@ -1,0 +1,32 @@
+table, td, th {
+    /* thuộc tính đường viền cho đối tượng table td th độ dày 1px màu đèn kiểu viền solid */
+    border: 1px solid black;
+}
+
+table {
+    /* thuộc tính loại viền của bảng với giá trị collapse */
+    border-collapse: collapse;
+    /* thuộc tính chiều rộng của bảng  */
+    width: 100%;
+}
+
+th {
+    /* thuộc tính chiều cao của dòng tiêu đề trong bảng  */
+    height: 50px;
+    /* thuộc tính căn tiêu đề giá trị left */
+    text-align: left;
+    /* thuộc tính màu nền tiêu đề */
+    background-color: #4CAF50;
+    /* thuộc tính màu chữ */
+    color: white;
+}
+td {
+    /* thuộc tính chiều cao thẻ td */
+    height: 50px;
+    /* thuộc tính căn theo chiều dọc */
+    vertical-align: bottom;
+}
+th, td {
+    /* thuộc tính viền quanh nội dung */
+    padding: 15px;
+}
