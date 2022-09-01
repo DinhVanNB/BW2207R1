@@ -5,44 +5,224 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang Facebook</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="Fb_Style.css">
 </head>
-<style>
-    *{
-        box-sizing:border-box;
-        padding: 0;
-        margin: 0;
-    }
-    .main{
-        margin: auto;
-        max-width: 630px;
-        
-    }
-    .left{
-        float:left;
-        width:20%;
-    }
-    .center{
-        float:left;
-        width:50%;
-    }
-    .right{
-        float:left;
-        width:30%;
-    } 
-</style>
 <body>
-    <div class="main" >
-        <img src="/BW2207R1/CSSLayout/Source/headerfb.PNG" alt="">
-        <div class="left">
-            <img src="/BW2207R1/CSSLayout/Source/leftFB.PNG" alt="">
+    <header>
+        <div class="header_left">
+            <a class="header_logo" href="#"> <i style="color:white;" class="fa-brands fa-facebook"></i></a>
+            <input type="text" placeholder="Search" class="header__search">
+                <i class="fa-solid fa-magnifying-glass header__search-logo"></i>
+            </input>
         </div>
-        <div class="center">
-            <img src="/BW2207R1/CSSLayout/Source/centerFB.PNG" alt="">
+        <div class="header_right">
+                <ul class="header_right_list">
+                    <li class="header_right_list_item"><a class="header_link" href="">Name</a></li> 
+                    <li class="header_right_list_item"><a class="header_link" href="">Find Friends</a></li>
+                    <li class="header_right_list_item"><a class="header_link" href="">Home</a></li>
+                    <li class="header_right_list_item">
+                        <a class="header_link" href="#"><i class="fa-solid fa-user-group" ></i></a>
+                    </li>  
+                    <li class="header_right_list_item">
+                        <a class="header_link" href="#"><i class="fa-brands fa-facebook-messenger" ></i></a>
+                    </li>
+                    <li class="header_right_list_item">
+                        <a class="header_link" href="#" style="border-right: 1px solid white; margin-right: 10px;">
+                        <i class="fa-solid fa-globe" style="color:white; margin-right: 10px; font-size: 20px;"></i></a>
+                    </li >
+                    <li class="header_right_list_item">
+                        <a class="header_link" href="#"><i class="fa-solid fa-circle-question"></i></a>
+                    </li>
+                    <li class="header_right_list_item">
+                        <a class="header_link" href="#"><i class="fa-solid fa-caret-down" ></i></a>
+                    </li>
+            </ul>
         </div>
-        <div class="right">
-            <img src="/BW2207R1/CSSLayout/Source/rigthFB.PNG" alt="">
-        </div>
-    </div>
-    
+    </header>
+
+    <!--  -->
+
+    <section class="main">
+        <aside class="slidebar_left">
+            <ul>
+                <li class="slidebar_left_icon">
+                    <a href="">
+                        <span style="width: 20px; height:20px;border-radius:50%;border: 1px solid orange; background-color:green; padding: 0px 0px 0px 20px;"></span> 
+                        <span>Name Surname</span>
+                    </a> 
+                </li>
+                <li class="slidebar_left_icon">
+                    <a href="">
+                        <i class="fa-solid fa-pager"></i>
+                        <span>New feed</span>
+                    </a> 
+                </li>
+                <li class="slidebar_left_icon">
+                    <a href="">
+                        <i class="fa-brands fa-facebook-messenger"></i>
+                        <span>Messenger</span>
+                    </a>
+                </li>
+                <li class="slidebar_left_icon">
+                    <a href="">
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                        <span>Maketplace</span>
+                    </a>
+                </li>
+            </ul>
+            <ul >
+                <li class="slidebar_left_icon">
+                    <a href="">
+                        <i class="fa-solid fa-user-group" ></i>
+                        <span>Lorem Ipsum</span> 
+                    </a>
+                </li>
+                <li class="slidebar_left_icon">
+                    <a href="">
+                        <i class="fa-solid fa-user-group" ></i>
+                        <span>Lorem Ipsum</span> 
+                    </a>
+                </li>
+                <li class="slidebar_left_icon">
+                    <a href="">
+                        <i class="fa-solid fa-user-group" ></i>
+                        <span>Lorem Ipsum</span> 
+                    </a>
+                </li>
+                <li class="slidebar_left_icon">
+                    <a href="">
+                        <i class="fa-solid fa-user-group" ></i>
+                        <span>Lorem Ipsum</span> 
+                    </a>
+                </li>
+                <li class="slidebar_left_icon">
+                    <a href="">
+                        <i class="fa-solid fa-user-group" ></i>
+                        <span>Lorem Ipsum</span> 
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li class="slidebar_left_icon">
+                    <a href="">
+                        <i class="fa-solid fa-calendar-day"></i>
+                        <span>Events</span>
+                    </a>
+                </li>
+                <li class="slidebar_left_icon">
+                    <a href="">
+                        <i class="fa-solid fa-flag"></i>
+                        <span>Pages</span>
+                    </a>
+                </li>
+                <li class="slidebar_left_icon">
+                    <a href="">
+                        <i class="fa-solid fa-photo-film"></i>
+                        <span>Photo</span>  
+                    </a>
+                </li>
+                <li class="slidebar_left_icon">
+                    <a href="">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>Game</span>
+                    </a>
+                </li>
+                <li class="slidebar_left_icon">
+                    <a href="">
+                        <i style="color:black;border:none;background-color:rgb(241,244,251)" class="fa-solid fa-caret-down"></i>
+                        <span style="color: blue;">See More</span>
+                    </a>
+                </li>
+            </ul>
+            <p style="margin-left: 10px;">Create</p>
+            <ul class="L_slidebar_Create">
+                <li><a href="">All</a> </li>
+                <li><a href="">Page</a> </li>
+                <li><a href="">Group</a></li>
+                <li><a href="">Event</a></li>
+            </ul>
+        </aside>
+        <!-- end sliderbar left -->
+        <section class="content">
+            <div class="content_post_panel" >
+                <div class="content_post_group" >
+                    <ul>
+                        <li><a href="">
+                            <i class="fa-solid fa-pen"></i>
+                            Make Post
+                        </a></li>
+                        <li><a href="">
+                            <i class="fa-solid fa-camera"></i>
+                            Photo/Video Albumn
+                        </a></li>
+                        <li><a href="">
+                            <i class="fa-solid fa-video"></i>
+                            Live Video
+                        </a></li>
+                    </ul>
+                </div>
+
+                <div class="content_text_panel">
+                    <div class="content_text_post">
+                        <span style="border: 1px solid orange;padding: 8px;box-shadow: inset 0 0 22px green;border-radius: 50%;"></span> 
+                        <input style="padding-left:10px ;border-style: none;outline-style: none;width: 90%;" type="text" placeholder="What's on your mind, Name Surname?" ></input>
+                    </div>
+
+                    <div class="content_text_sub">
+                        <ul>
+                            <li><a href="">
+                                <i class="fa-solid fa-photo-film"></i>
+                                <span>Photos/Videos</span>
+                            </a></li>
+                            <li><a href="">
+                                <i class="fa-solid fa-face-smile"></i>
+                                <span>Feeling/Activity</span>
+                            </a></li>
+                            <li><a href="">
+                                <span>...</span>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="content_new_feed">
+                <div style="padding:15px;display: flex;" >
+                    <div style="padding-right:10px;padding: 10px;">
+                        <span style="border: 1px solid orange;padding: 15px;box-shadow: inset 0 0 22px green;border-radius: 50%;"></span> 
+                    </div>
+                   <div>
+                        <span style="font-weight:bold;">Name Surname</span> <small style="color: rgb(104, 110, 112);padding-left:5px;">lorem ipsum</small>
+                        <p><small style="color: rgb(104, 110, 112);">Yesterday at 00:00 am</small></p>
+                   </div>
+                </div>
+                <div style="background-color:blue ;margin: auto; height: 280px;width:calc(95%);">    
+                </div>
+                <div style="display: flex;justify-content:space-around;padding-top: 5px;">
+                    <div>
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        Like
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-comment"></i>
+                        Comment
+                    </div>
+            </div>
+            <div style="padding-left: 20px;">
+                👍❤️😱 Lorem ipsum
+            </div>
+        </section>
+        <aside class="slidebar_right">
+            <div style="height:300px;width: 90%;margin:auto;background-color:rgb(255 255 255);border-radius: 20px;">
+                <p style="padding: 10px;font-weight: bold;">Story</p>
+            </div>
+            <div style="height:250px;width: 90%;margin:auto;background-color:rgb(255 255 255);border-radius: 20px;margin-top: 10px;">
+                <p style="padding: 10px;font-weight: bold;">Your Page</p>
+            </div>
+        </aside>
+    </section>
+    <!--  -->
+    <footer>
+    </footer>
 </body>
 </html>
