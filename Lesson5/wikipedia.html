@@ -5,30 +5,350 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wikipedia</title>
+  <link rel="stylesheet" href="wiki_style.css">
 </head>
 <body>
     <header>
-      <ul style="list-style:none;text-align: center;">
-        <li style="float:left; line-height: 35px;height: 35px;"><a href=""><img src="/BW2207R1/Lesson5/menuwiki.PNG" alt=""></a></li>
-        <li style="float:left;line-height: 35px;height: 35px;"><a href=""><img src="/BW2207R1/Lesson5/wikiloo.PNG" alt=""></a></li>
-        <li style="height: 35px;float: left;"><img style="width:35px;" src="/BW2207R1/Lesson5/searchwiki.PNG" alt=""><input type="text" placeholder="Tìm kiếm Wikipedia" style="border:none" ></li>
-        <li style="float:right;"><a href=""><img src="/BW2207R1/Lesson5/menu2wiki.PNG" alt=""></a></li>
-        <li style="float:right;"><a href="">Tạo tài khoản</a></li>
+      <ul class="header_left">
+        <li><a href="">
+          <img src="/BW2207R1/Lesson5/Source/menuwiki.PNG" alt="">
+        </a></li>
+        <li><a href="">
+          <img src="/BW2207R1/Lesson5/Source/wikiloo.PNG" alt="">
+        </a></li>
+        <li><a href="">
+          <input type="text" placeholder="Tìm kiếm Wikipedia">
+        </a></li> 
+      </ul>
+      <ul class="header_right">
+        <li><a href="">
+          <span>Tạo tài khoản</span>
+        </a></li>
+        <li><a href="">
+          <img src="/BW2207R1/Lesson5/Source/menu2wiki.PNG" alt="">
+        </a></li>
       </ul>
     </header>
-      
-    <nav >
-      <ul style="list-style: none;margin-top: 100px;">
-        <li style="float:left;"><a style="text-decoration:none;" href="">Trang Chính</a></li>
-        <li style="float:left;"><a style="text-decoration:none;" href="">Thảo luận</a></li>
-        <li style="float:right;"><a style="text-decoration:none;" href="">Đọc</a></li>
-        <li style="float:right;"></li><a style="text-decoration:none;" href="">Xem mã nguồn</a></li>
-        <li style="float:right;"></li><a style="text-decoration:none;" href="">Xem lịch sử</a></li>
-        <li style="float:right;"></li><a style="text-decoration:none;" href="">Thêm</a></li>
+    <nav class="nav_main">
+      <ul class="nav_left">
+        <li class="nav_ul"><a href="" >Trang Chính</a></li>
+        <li><a href="">Thảo Luận</a></li>
+      </ul>
+      <ul class="nav_right">
+        <li class="nav_ul"><a href="" >Đọc</a></li>
+        <li><a href="">Xem mã nguồn</a></li>
+        <li><a href="">Xem lịch sử</a></li>
+        <li><a href="">Thêm</a></li>
       </ul>
     </nav>
+    <nav class="nav_sub">
+      <div class="nav_sub_top">
+        <p style="font-size: 24px;">WIKIPEDIA TIẾNG VIỆT</p>
+        <p>Bạn chính là tác giả của Wikipedia</p>
+        <p>1.275.845 bài viết và 878.868 thành viên</p>
+        <ul class="nav_edit">
+          <li><a href="">Tạo bài</a></li>
+          <li><a href="">Sửa bài</a></li>
+          <li><a href="">Tải hình</a></li>
+          <li><a href="">Quy tắc</a></li>
+          <li><a href="">Đặt câu hỏi</a></li>
+        </ul>
+      </div>
+        <div class="nav_sub_bottom">
+          <ul class="nav_utitil">
+            <b>Bài viết:</b> 
+            <li><a href="">Tra cứu</a></li>-
+            <li><a href="">Bài mới</a></li>-
+            <li><a href="">Hỏi đáp</a></li>-
+            <li><a href="">Thỉnh cầu</a></li>-
+            <li><a href="">Thư viện</a></li>
+          </ul>
+          <ul  class="nav_utitil">
+           <b> Trợ giúp:</b>
+            <li><a href="">FAQ</a></li>-
+            <li><a href="">Giúp đỡ</a></li>-
+            <li><a href="">Hướng dẫn</a></li>-
+            <li><a href="">Chỗ thử</a></li>-
+            <li><a href="">Guestbook</a></li>
+          </ul>
+        </div>
+    </nav>
+    <section class="section_flex">
+      <div class="section_left">
+        <div class="section_topic">
+          <div class="section_header" style="background-color:rgb(252 244 219) ;">
+            <img src="/BW2207R1/Lesson5/Source/saoicon.PNG" alt="">
+            <h3  >Bài viết chọn lọc</h3>
+          </div>
+          
+            <img style="float: right;margin-left: 10px;" src="/BW2207R1/Lesson5/Source/baivietchonlocicon.PNG" alt="">
+            <p>Ó cá (Pandion haliaetus) là một loài chim săn mồi ăn cá, sống về ban ngày với phạm vi sống toàn cầu. Loài chim này có kích thước lớn với chiều dài hơn 60 cm (24 in) và sải cánh 180 cm (71 in). Đặc điểm dễ nhận biết là vùng lưng và phía sau đầu có màu nâu xám, cánh và xung quanh mắt có màu đen. Ó cá sống trong nhiều kiểu môi trường khác nhau, làm tổ ở bất cứ nơi nào gần vực nước cung cấp đủ thức ăn cho chúng. Chúng được tìm thấy trên tất cả các lục địa trừ châu Nam Cực, riêng ở Nam Mỹ chúng chỉ xuất hiện ở dạng di cư không sinh sản. Loài này được IUCN đánh giá là ít quan tâm, chỉ tính riêng châu Phi thì số cá thể có khoảng 460.000 con. Như tên gọi của chúng, thức ăn của chúng hầu như chỉ là cá. Chúng có các đặc điểm hình thái và hành vi rất đặc biệt giúp chúng có thể săn và bắt con mồi. [ Đọc tiếp ]</p>
+            <p style="border-bottom:1px solid #cccc;">Mới chọn: Kanon · Biểu tình bài Nhật tại Trung Quốc năm 2012 · Leonhard Euler</p>
+          <div>
+            <ul class="menu_topic">
+              <li>Lưu trữ</li> 
+              <li>Thêm bài viết chọn lọc</li>
+              <li>Ứng cử viên</li>
+            </ul>
+          </div>
+        </div>
+        <div class="section_topic">
+          <div class="section_header" style="background-color:rgb(212 239 223) ;">
+              <img src="/BW2207R1/Lesson5/Source/saoicon1.PNG" alt="">
+              <h3  >Bài viết tốt</h3>
+          </div>
+          <img style="float: right;margin-left: 10px;" src="/BW2207R1/Lesson5/Source/baiviettoticon.PNG" alt="">
+          <p>
+            Tabei Junko (22 tháng 9 năm 1939 – 20 tháng 10 năm 2016) là một nhà leo núi, tác giả viết sách, giáo viên người Nhật Bản. Bà là người phụ nữ đầu tiên leo lên đến đỉnh núi Everest và là người phụ nữ đầu tiên leo lên bảy đỉnh núi cao nhất mỗi châu lục. Tabei đã viết 7 cuốn sách, tổ chức các dự án dọn rác trên núi Everest (rác này do những người leo núi bỏ lại), và dẫn đầu các cuộc leo núi hàng năm lên núi Phú Sĩ cho những thanh niên bị ảnh hưởng bởi trận động đất ở miền Đông Nhật Bản vào năm 2011. Một nhà thiên văn học đã đặt tên tiểu hành tinh 6897 Tabei theo tên bà, và vào năm 2019 một dãy núi trên sao Diêm Vương được đặt tên là Tabei Montes để vinh danh bà. [ Đọc tiếp ]
+          </p>
+          <p style="border-bottom:1px solid #cccc;">
+            Mới chọn: Xuất huyết Henoch–Schönlein · Lưu Diệc Phi · Nintendo Switch
+          </p>
+          <div>
+            <ul class="menu_topic">
+              <li>Lưu trữ</li> 
+              <li>Thêm bài viết tốt</li>
+              <li>Ứng cử viên</li>
+            </ul>
+          </div>
+        </div>
+        <div class="section_topic">
+          <div class="section_header" style="background-color:rgb(241 225 247) ;">
+            <img src="/BW2207R1/Lesson5/Source/saoicon2.PNG" alt="">
+            <h3 > Danh sách chọn lọc</h3>
+          </div>
+          <img style="float: right;margin-left: 10px;" src="/BW2207R1/Lesson5/Source/danhsachchonloc.PNG" alt="">
+          <p>
+            Humphrey Bogart (1899–1957) là một nam diễn viên và nhà sản xuất người Mỹ trong suốt 36 năm sự nghiệp, bắt đầu từ các vở kịch sân khấu trực tiếp ở New York vào năm 1920. Ông sinh ra tại một gia đình giàu có ở Upper West Side, New York và là con đầu lòng cũng như con trai duy nhất của họa sĩ minh họa Maud Humphrey cùng bác sĩ Belmont Deforest Bogart. Ông sau đó còn có thêm hai người em gái là Patricia và Catherine. Cha mẹ của Bogart tin rằng ông sẽ đạt thành tích xuất sắc trong học tập và có thể trúng tuyển Đại học Yale, trở thành bác sĩ phẫu thuật. Họ đã ghi danh ông vào các trường tư thục gồm Học viện Delancey, Trinity và Phillips Academy, nhưng Bogart lại không có khuynh hướng trở thành một học giả và chưa bao giờ hoàn thành chương trình học tại Phillips. Ông sau đó đã gia nhập Hải quân Hoa Kỳ năm 1918. [ Đọc tiếp ]
+          </p>
+          <p style="border-bottom:1px solid #cccc;">
+            Mới chọn: Giải Grammy cho Album nhạc alternative xuất sắc nhất · Tập truyện Naruto · Tem bưu chính Liên Xô năm 1923
+          </p>
+          <div>
+            <ul class="menu_topic">
+              <li>Lưu trữ</li> 
+              <li>Thêm danh sách chọn lọc</li>
+              <li>Ứng cử viên</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="section_right">
+        <div class="section_topic">
+          <div class="section_header" style="background-color: rgb(213 235 248);">
+            <img src="/BW2207R1/Lesson5/Source/dauhoiicon.PNG" alt="">
+            <h3>Bạn có biết</h3>
+          </div>
+          <img style="float: right;margin-left: 10px;" src="/BW2207R1/Lesson5/Source/bancobieticon.PNG" alt="">
+          <p>
+            …với độ cao 4.411 m (14.472 ft) so với mực nước biển, Sân bay Á Đinh ở Đạo Thành là sân bay dân dụng cao nhất thế giới?
+            …để thực hiện cảnh quay trong bộ phim Váy hồng tầng 24, diễn viên Huy Khánh từng bị bầm tím hông vì bê đỡ diễn viên Diễm My 9x trong khi thực hiện cảnh nhảy điệu tango dài 2 phút?
+            …một truyền thuyết đô thị cho rằng khi gọi số khẩn cấp 999 vào lúc sắp hết pin, điện thoại di động sẽ được sạc nhiều pin hơn?
+            …ngoài vai trò làm thuốc giảm đau, Bengay còn có tác dụng gỡ kẹo cao su ra khỏi quần áo?
+          </p>
+          <p style="border-bottom:1px solid #cccc;">
+            Từ những bài viết mới của Wikipedia
+          </p>
+          <div>
+            <ul  class="menu_topic">
+              <li>Lưu trữ</li> 
+              <li>Bắt đầu viết bài mới</li>
+              <li>Cập nhật</li>
+            </ul>
+          </div>
+        </div>
+        <div class="section_topic">
+          <div class="section_header"  style="background-color:rgb(252 235 219) ;">
+            <img src="/BW2207R1/Lesson5/Source/lichsuicon.PNG" alt="">
+            <h3>Ngày này năm xưa</h3>
+          </div>
+          <img style="float: right;margin-left: 10px;" src="/BW2207R1/Lesson5/Source/ngayxuanamkiaicon.PNG" alt="">
+          <p>
+            5 tháng 9: Ngày Quốc tế Từ thiện; Ngày Khai trường tại Việt Nam; ngày Giáo viên tại Ấn Độ.</p>
+            <ul style="border-bottom: 1px solid #cccc;line-height: 20px;font-size: 14px;;list-style-position:inside; list-style-type:circle;" >
+              <li>
+                917 – Tiết độ sứ Lưu Nham lên ngôi hoàng đế ở Phiên Ngung, đặt quốc hiệu là "Đại Việt", đoạn tuyệt quan hệ chư hầu với Hậu Lương.
+              </li>
+              <li>
+                1905 – Chiến tranh Nga–Nhật kết thúc khi Hòa ước Portsmouth (hình) được ký kết, Tổng thống Hoa Kỳ Theodore Roosevelt làm trung gian.
+              </li>
+              <li>
+                1972 – Nhóm khủng bố Palestine Tháng Chín Đen tấn công và bắt giữ 11 vận động viên Israel đang tham gia Thế vận hội tại München, Tây Đức.
+              </li>
+              <li>
+                1977 – NASA phóng tàu thăm dò không gian robot Voyager 1 từ Mũi Canaveral, Florida, Hoa Kỳ.
+              </li>
+            </ul>
+            <div>
+              <ul  class="menu_topic">
+                <li>Lưu trữ</li> 
+                
+                <li>Cập nhật</li>
+                <li>Danh sách ngày kỉ niệm lịch sử</li>
+              </ul>
+            </div>
+          
+        </div>
+        <div class="section_topic">
+          <div class="section_header" style="background-color:rgb(230 232 236) ;" >
+            <img src="/BW2207R1/Lesson5/Source/caclinhvucicon.PNG" alt="">
+            <h3>Các lĩnh vực</h3>
+          </div>
+          
+            <h4>Khoa học tự nhiên</h4> 
+            <p>
+              Địa chất học Địa lý học Hóa học Khoa học máy tính Logic Sinh học Thiên văn học Toán học Vật lý học Y học
+            </p> 
+            
+            <h4>Khoa học xã hội</h4>  
+            <p>
+              Chính trị học Giáo dục Kinh tế học Lịch sử Luật pháp Ngôn ngữ học Nhân chủng học Tâm lý học Thần học Triết học Xã hội học
+            </p>
+            <h4> Kỹ thuật</h4>
+           <p>
+            Công nghiệp Cơ học Điện tử học Giao thông Kiến trúc Năng lượng Người máy Nông nghiệp Quân sự Y tế
+           </p>
+           <h4>Văn hóa</h4>
+          <p style="border-bottom:1px solid #cccc;">
+            Âm nhạc Chính trị Du lịch Điện ảnh Giải trí Vũ đạo Nghệ thuật Phong tục tập quán Thần thoại Thể thao Thời trang Tôn giáo Văn học
+          </p>
+          
+          <div>
+            <ul class="menu_topic">
+              <li>Danh sách cổng thông tin</li> 
+              <li>Dự án Wikipedia</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section_clear">
+      <div style="border: 1px solid #cccc ; padding:10px; margin-bottom: 30px;">
+        <div style="display:flex;align-items:center; background-color:rgb(249, 224 ,240)">
+          <img src="/BW2207R1/Lesson5/Source/sao3.PNG" alt="">
+          <h3>Hình ảnh chọn lọc</h3>
+        </div>
+        <div style="text-align:center;border-bottom:1px solid #cccc; padding: 10px;">
+          <img style="display:inline-block;" src="/BW2207R1/Lesson5/Source/hinhanhchonloc.PNG" alt=""></div>
+        <div>
+          <ul  class="menu_topic_clear">
+            <li>Lưu trữ</li> 
+            <li>Bắt đầu viết bài mới</li>
+            <li>Cập nhật</li>
+          </ul>
+        </div>
+      </div>
+      <div style="border: 1px solid #cccc ">
+        <div style="display:flex;align-items:center; margin:10px;background-color:rgb(242, 242 ,242)">
+          <img src="/BW2207R1/Lesson5/Source/caithiennoidunfg.PNG" alt="">
+          <h3>Cải thiện nội dung</h3>
+        </div>
+        <div style="border-bottom:1px solid #cccc; padding:10px;display: flex;">
+         <div style="width:60%;display: flex;justify-content:space-between">
+            <div style="width:50%;">
+              <div style="border-bottom: 7px solid green;width:270px;height:100px;background-color:rgb(247,247,247);display:table-cell;vertical-align: middle;">
+                <h1 style="display: inline-block;padding-left:20px">398</h1>
+                <span >bài</span>
+                <p style="padding-left:20px">lỗi thời</p>
+              </div>
+              <br>
+              <div style="border-bottom: 7px solid green;width:270px;height:100px;background-color:rgb(247,247,247);display:table-cell;vertical-align: middle;">
+                <h1 style="display: inline-block;padding-left:20px">40.432</h1>
+                <span >bài</span>
+                <p style="padding-left:20px">hỏng liên kết</p>
+              </div>
+              <br>
+              <div style="border-bottom: 7px solid blue;width:270px;height:100px;background-color:rgb(247,247,247);display:table-cell;vertical-align: middle;">
+                <h1 style="display: inline-block;padding-left:20px">467</h1>
+                <span >bài</span>
+                <p style="padding-left:20px">có đề mục cần mở rộng</p>
+              </div>
+              <br>
+              <div style="border-bottom: 7px solid blue;width:270px;height:100px;background-color:rgb(247,247,247);display:table-cell;vertical-align: middle;">
+                <h1 style="display: inline-block;padding-left:20px">518</h1>
+                <span >bài</span>
+                <p style="padding-left:20px">có nguồn không tin cậy</p>
+              </div>
+              
+            </div>
+            <div style="width:50%;">
+              <div style="border-bottom: 7px solid grey;width:270px;height:100px;background-color:rgb(247,247,247);display:table-cell;vertical-align: middle;">
+                <h1 style="display: inline-block;padding-left:20px">3.479</h1>
+                <span >bài</span>
+                <p style="padding-left:20px">cần wiki hoá</p>
+              </div>
+              <br>
+              <div style="border-bottom: 7px solid red;width:270px;height:100px;background-color:rgb(247,247,247);display:table-cell;vertical-align: middle;">
+                <h1 style="display: inline-block;padding-left:20px">1.323</h1>
+                <span >bài</span>
+                <p style="padding-left:20px">dịch chất lượng kém</p>
+              </div>
+              <br>
+              <div style="border-bottom: 7px solid grey;width:270px;height:100px;background-color:rgb(247,247,247);display:table-cell;vertical-align: middle;">
+                <h1 style="display: inline-block;padding-left:20px">2.035</h1>
+                <span >bài</span>
+                <p style="padding-left:20px">cần biên tập lại</p>
+              </div>
+              <br>
+              <div style="border-bottom: 7px solid red;width:270px;height:100px;background-color:rgb(247,247,247);display:table-cell;vertical-align: middle;">
+                <h1 style="display: inline-block;padding-left:20px">5.941</h1>
+                <span >bài</span>
+                <p style="padding-left:20px">cần thêm nguồn</p>
+              </div>
+              
+            </div>
+         </div>
+         <div style="width:40%;padding: 25px;height:455px; background-color:rgb(247,247,247);">
+            <h4 style="padding-bottom: 15px;">
+              Tham gia Wikipedia
+            </h4>
+            <p>
+              Wikipedia là dự án bách khoa toàn thư mở, đa ngôn ngữ mà mọi người đều có thể tham gia đóng góp. Mục tiêu của Wikipedia là xây dựng một bách khoa toàn thư hoàn chỉnh, chính xác và trung lập.
+            </p>
+            <p>
+              Sự phát triển của Wikipedia tiếng Việt phụ thuộc vào sự tham gia của bạn. Dù là tạo một bài mới, thêm nội dung, sửa lỗi chính tả hay bổ sung hình ảnh minh họa, thì bạn cũng đã góp phần xây dựng để Wikipedia tiếng Việt ngày một phát triển.
+            </p>
+           <div style="text-align:center;">
+            <button style="color:white; width:85px; height:35px;background-color:blue;border:none;border-radius:3px;">Tham gia</button>
+           </div>
+         </div>
+        
+      </div>
+      <div>
+        <ul  class="menu_topic_clear" style="padding-bottom: 10px;">
+          <li>Quản lý Wikipedia</li> 
+          <li>Liên hệ bảo quản viên</li>
+        </ul>
+      </div>
       
-
+    </section>
+    <div style="display: flex;padding-left: 100px;padding-right: 100px;justify-content: center;align-items: center;margin:30px auto;">
+      <div style="height: 2px;width:40%; background-color:rgb(242,242,242);"></div>
+      <img src="/BW2207R1/Lesson5/Source/logoW.PNG" alt="">
+      <div style="height: 2px;width:40%; background-color:rgb(242,242,242);"></div>
+    </div>
+    <div style="width:100%;display: flex;justify-content: center;">
+      <p style="max-width:500px; text-align:center;display: block;">
+        Đây là Wikipedia phiên bản tiếng Việt. Hiện nay, Wikipedia còn có nhiều phiên bản ngôn ngữ khác, dưới đây là các phiên bản ngôn ngữ lớn nhất.
+      </p>
+    </div>
+    <dir style="width:90%; margin:50px auto;height:2px ;background-color:rgb(242,242,242)"></dir>
+    <footer>
+      <small>
+        Văn bản được phát hành theo Giấy phép Creative Commons Ghi công–Chia sẻ tương tự; có thể áp dụng điều khoản bổ sung. Với việc sử dụng trang web này, bạn chấp nhận Điều khoản Sử dụng và Quy định quyền riêng tư. Wikipedia® là thương hiệu đã đăng ký của Wikimedia Foundation, Inc., một tổ chức phi lợi nhuận.
+      </small>
+      <small>
+        <ul>
+          <li><a href="">Quy định riêng tư</a></li>
+          <li><a href="">Giới thiệu Wikipedia</a></li>
+          <li><a href="">Lời phủ nhận</a></li>
+          <li><a href="">Phiên bản di động</a></li>
+          <li><a href="">Lập trình viên</a></li>
+          <li><a href="">Thống kê</a></li>
+          <li><a href="">Tuyên bố về cookie</a></li>
+        </ul>
+      </small>
+    </footer>
     
 </body>
 </html>
