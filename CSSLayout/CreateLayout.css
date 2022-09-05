@@ -1,0 +1,48 @@
+body {
+    font-family: Verdana,sans-serif;
+    font-size: 0.9em;
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+header, footer {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+section {
+    width:75% ;
+    float: left;
+    
+    background-color: lightgrey;
+}
+aside{
+    float: left;
+    width:25%;
+    height:430px;
+    background-color: rgb(242,242,242);
+}
+
+article {
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;  
+}
+
+nav ul li {
+    padding-right: 30px;
+    
+}
+footer{
+    clear: both;
+}
