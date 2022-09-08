@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        .main{width:100%;}
+        .jpg{
+            border: 1px solid #cccc;
+            text-align: center;
+        }
+        @media screen and (min-width:700px) {
+            .main{display: flex;justify-content: space-between;}
+        }
+        @media screen and (max-width:700px) {
+            .jpg{float: left;width:50%;}
+        }
+        @media screen and (max-width:500px) {
+            .main{display: flex;flex-direction: column;}
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div style="padding-bottom: 20px;">
+            <h2>Responsive Image Gallery</h2>
+        </div>
+        <div style="padding-bottom: 20px;">
+            <h3>Resize the browser window to see the effect.</h3>
+        </div>
+    </div>
+    <div class="main">
+        <div class="jpg">
+            <img src="/BW2207R1/ReponsiveWebDesign/Source/1.jpg" alt="">
+            <p>Add a description of the image here</p>
+        </div>
+        <div class="jpg">
+            <img src="/BW2207R1/ReponsiveWebDesign/Source/2.jpg" alt="">
+            <p>Add a description of the image here</p>
+        </div>
+        <div class="jpg">
+            <img src="/BW2207R1/ReponsiveWebDesign/Source/3.jpg" alt="">
+            <p>Add a description of the image here</p>
+        </div>
+        <div class="jpg">
+            <img src="/BW2207R1/ReponsiveWebDesign/Source/4.jpg" alt="">
+            <p>Add a description of the image here</p>
+        </div>
+    </div>
+    <div div style="padding-top: 30px;">
+        <p>
+            This example use media queries to re-arrange the images
+             on different screen sizes: for screens larger than 700px wide,
+              it will show four images side by side, for screens smaller than 700px
+              , it will show two images side by side. For screens smaller than 500px,
+               the images will stack vertically (100%).
+        </p>
+    </div>
+</body>
+</html>
