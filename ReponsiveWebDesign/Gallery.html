@@ -13,6 +13,7 @@
         }
         img{
             height: 200px;
+            width: 100%;
         }
         h2,h4{padding-left: 10px;
         padding-top:20px;
@@ -25,27 +26,19 @@
             border: 1px solid #cccc;
             text-align: center;
             width: 23%;
+            float: left;width: 23%; margin:1%;
         }
         .div1:hover, .div2:hover, .div3:hover, .div4:hover {
             border: 1px solid black;
         }
-        @media screen and (min-width:700px) {
-            .div1,.div2,.div3,.div4{float: left;width: 23%; margin:1%;}
-            img{
-                width: 100%;
-            }
-        }
+
         @media screen and (max-width:700px) {
             .div1,.div2,.div3,.div4{float: left;width: 48%; margin:1%;}
-            img{
-                width: 100%;
-            }
+           
         }
         @media screen and (max-width:500px) {
             .div1,.div2,.div3,.div4{float: left;width: 98%; margin:1%;}
-            img{
-                width: 100%;
-            }
+           
         }
     </style>
 </head>
