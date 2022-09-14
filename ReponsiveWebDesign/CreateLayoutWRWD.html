@@ -11,11 +11,71 @@
             padding: 0;
             margin:0;
         }
-        .menu-header-left li{
-            float: left;
+        header{
+            background-color: black;
+            width: 100%;
+            height: 35px;
+            color: white;
+            line-height: 35px;
+            display: flex;
         }
-        .menu-header-right{
-            float: right;
+        .menu-header-left{width:85%; display: flex;padding-left: 5%;}
+        .menu-header-right{width:15%;padding-left: 5%;} 
+        .menu-header-left  a{
+            text-decoration: none;
+            padding: 0px 5px ;
+            color: white;
+            font-weight: bold;
+        }
+        .menu-header-left a:hover {
+            color:red;
+        }
+        ul{
+            list-style-type: none;
+        }
+        article{
+            height: 500px;
+            float: left;
+            width: 60%;
+            padding: 10px;
+        }
+        h1, h3 {
+            padding: 5px;
+        }
+        h1 +p {border-bottom: 1px solid #cccc;}
+        article >p {padding-bottom: 15px;}
+        footer{
+            background-color: black;
+            clear: both;
+            width: 100%;
+            height:35px;
+            color: white;
+            line-height: 35px;
+            text-align: center;
+        }
+        button{
+            width: 80%;
+            margin: 20px 0px;
+            height: 50px;
+            border-radius: 4px;
+            border: none;
+        }
+        .left-bar >ul>li{padding-top: 20px;}
+        .left-bar , .right-bar{
+            background-color: #ccc;
+            height: 500px;
+            float:left;
+            width:20%;
+            text-align: center;
+        }
+        @media screen and (min-width:576px) and (max-width:768px){
+            .right-bar{display:none;}
+            .left-bar{width:30%;}
+            article{width:70%;}
+        }
+        @media screen and (max-width:576px){
+            .left-bar, .right-bar{display: none;}
+            article{width:100%;}
         }
     </style>
 </head>
@@ -39,13 +99,17 @@
             <li>Link</li>
         </ul>
     </aside>
-    <aside class="right-bar">
-        <button>ADS</button>
-        <button>ADS</button>
-    </aside>
+    
     <article>
         <h1>Welcome</h1>
         <p>
+            Lorem ipsum dolor sit  amet, consectetur...
+            Lorem ipsum dolor sit  amet, consectetur...
+            Lorem ipsum dolor sit  amet, consectetur...
+            Lorem ipsum dolor sit  amet, consectetur...
+            Lorem ipsum dolor sit  amet, consectetur...
+            Lorem ipsum dolor sit  amet, consectetur...
+            Lorem ipsum dolor sit  amet, consectetur...
             Lorem ipsum dolor sit  amet, consectetur...
         </p>
         <h3>
@@ -53,9 +117,13 @@
         </h3>
         <p>Lorem ipsum...</p>
     </article>
-
+    <aside class="right-bar">
+        <button>ADS</button>
+        <button>ADS</button>
+    </aside>
+        
     <footer>
-
+        <p>Footer Text</p>
     </footer>
 </body>
 </html>
