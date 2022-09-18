@@ -205,16 +205,17 @@
     position: relative;
 }
 .single-service img {
-    width:100%;
+    width:90%;
     height: 300px;
     border-radius: 7px;
 }
 .overlay{
-    width:100%;
+    width:90%;
     height: 100%;
     position: absolute;
     top: 0 ;
     border-radius: 7xp;
+    margin-left: 5%;
     cursor: pointer;
     background: linear-gradient(rgba(0,0,0,0.5),#008d76);
     opacity: 0;
