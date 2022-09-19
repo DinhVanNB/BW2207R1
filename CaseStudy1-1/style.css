@@ -457,7 +457,6 @@ footer {
     margin:0 auto;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 .footer-left, .footer-right{
     flex-basis: 45%;
@@ -507,3 +506,7 @@ footer img{
     margin: 10px;
 }
 /* end footer */
+@media screen and (max-width:500px) {
+    *{font-size: 10px;}
+    .single-box, .single-blog, .single-product{width: 100%;}
+}
