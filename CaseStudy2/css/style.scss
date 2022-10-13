@@ -332,10 +332,12 @@ body{
         padding: 8px 0 8px 30px;
     }
     //end footer
+    
 }
 @media screen and (max-width:992px) {
     .filter, .header_mid     {display: none;} 
-    // .header_top .navbar{display: block;}
+    #nav{display: none;}
+    
 } 
 @media screen and (max-width:576px) {
     .notification     {display: none;} 

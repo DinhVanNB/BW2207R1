@@ -44,11 +44,7 @@ body{
         line-height: 50px;
         
     }
-    .top_menu ul {
-        background-color:#464646;
-        z-index: 100;  
-        position: absolute;
-    }
+    
     .top_menu li {padding-right: 5px;}
     .top_menu ul li a{     
         font-size: 14px;
@@ -76,6 +72,7 @@ body{
     .cart .bi, .cart span{
         font-size: 18px;
         color: #fcb040;
+        line-height: 50px;
     }
     //end top menu
     .top_header{
@@ -327,12 +324,74 @@ body{
     .footer-icon.icon3 {
         background-position: center -296px;
     }
+    .nav_2{background-color: #464646;
+    
+    }
+    .nav_2 li a {
+        font-size: 14px;
+        color: white;
+    }
+    .title_nav{border-bottom: 1px solid #464646;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #555;
+        }
+     p.sb_main_h ,.sb_main_nav .col-12 {
+        display: inline-block; 
+        padding: 8px 10px;
+    }
+    .sb_main_nav li a{
+        display: inline-block; 
+        padding: 8px 10px;
+        color: #555;
+    }
+    .sb_sub_nav{
+        display: inline-block;
+        
+    }
+    
+    
+    .plusminus {color: #bd2026;}
+    .top_menu .navbar{
+        line-height: 32px;
+        padding: 0;
+        // display: none;
+    }
+    .top_menu .container , .top_menu .row
+    {
+        height:32px;
+        line-height: 32px;
+    }
+    .nav_2 .nav-item{
+        background-position: center left 10px;
+        background-repeat: no-repeat;
+        padding-left: 10px;
+        border-bottom: 1px solid #fff;
+    }
+    .ic-hyt{background-image: url(/CaseStudy2/img/icon-hyt.png);}
+    .ic-dl{background-image: url(/CaseStudy2/img/icon-dl.png);}
+    .ic-locat{background-image: url(/CaseStudy2/img/icon-lt.png);}
+    .ic-lhd {background-image: url(/CaseStudy2/img/icon-lhd.png);}
+    .ic-sub{background-image: url(/CaseStudy2/img/icon-sub.png);}
+    .ic-gau{background-image: url(/CaseStudy2/img/icon-gau.png);}
+    .ic-gift{background-image: url(/CaseStudy2/img/icon-gift.png);}
+    
+
+
     @media screen and (max-width:992px) {
         .item-friendly {
             padding: 0;
         }
+        .nav-menu{display: none;}
         .containers{
             width: 100%;
         }
+    }
+    @media screen and (max-width:1250px) {
+        
+        .menu_hide{
+            display: none;
+        }
+        
     }
 }

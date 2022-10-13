@@ -274,7 +274,9 @@ body{
     .ic-gau{background-image: url(/CaseStudy2/img/icon-gau.png);}
     .ic-gift{background-image: url(/CaseStudy2/img/icon-gift.png);}
     .offcanvas-start{overflow: auto;}
-    
+    #offcanvasNavbar{
+        overflow: auto;
+    }
 }
 
 @media screen and (max-width:992px) {

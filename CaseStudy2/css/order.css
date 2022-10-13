@@ -42,11 +42,6 @@ body .top_menu {
   height: 50px;
   line-height: 50px;
 }
-body .top_menu ul {
-  background-color: #464646;
-  z-index: 100;
-  position: absolute;
-}
 body .top_menu li {
   padding-right: 5px;
 }
@@ -76,6 +71,7 @@ body .hct {
 body .cart .bi, body .cart span {
   font-size: 18px;
   color: #fcb040;
+  line-height: 50px;
 }
 body .top_header {
   background-color: #fff;
@@ -319,11 +315,82 @@ body .footer-icon.icon2 {
 body .footer-icon.icon3 {
   background-position: center -296px;
 }
+body .nav_2 {
+  background-color: #464646;
+}
+body .nav_2 li a {
+  font-size: 14px;
+  color: white;
+}
+body .title_nav {
+  border-bottom: 1px solid #464646;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #555;
+}
+body p.sb_main_h, body .sb_main_nav .col-12 {
+  display: inline-block;
+  padding: 8px 10px;
+}
+body .sb_main_nav li a {
+  display: inline-block;
+  padding: 8px 10px;
+  color: #555;
+}
+body .sb_sub_nav {
+  display: inline-block;
+}
+body .plusminus {
+  color: #bd2026;
+}
+body .top_menu .navbar {
+  line-height: 32px;
+  padding: 0;
+}
+body .top_menu .container, body .top_menu .row {
+  height: 32px;
+  line-height: 32px;
+}
+body .nav_2 .nav-item {
+  background-position: center left 10px;
+  background-repeat: no-repeat;
+  padding-left: 10px;
+  border-bottom: 1px solid #fff;
+}
+body .ic-hyt {
+  background-image: url(/CaseStudy2/img/icon-hyt.png);
+}
+body .ic-dl {
+  background-image: url(/CaseStudy2/img/icon-dl.png);
+}
+body .ic-locat {
+  background-image: url(/CaseStudy2/img/icon-lt.png);
+}
+body .ic-lhd {
+  background-image: url(/CaseStudy2/img/icon-lhd.png);
+}
+body .ic-sub {
+  background-image: url(/CaseStudy2/img/icon-sub.png);
+}
+body .ic-gau {
+  background-image: url(/CaseStudy2/img/icon-gau.png);
+}
+body .ic-gift {
+  background-image: url(/CaseStudy2/img/icon-gift.png);
+}
 @media screen and (max-width: 992px) {
   body .item-friendly {
     padding: 0;
   }
+  body .nav-menu {
+    display: none;
+  }
   body .containers {
     width: 100%;
+  }
+}
+@media screen and (max-width: 1250px) {
+  body .menu_hide {
+    display: none;
   }
 }/*# sourceMappingURL=order.css.map */

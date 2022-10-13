@@ -345,6 +345,9 @@ body .notification h3 {
   .filter, .header_mid {
     display: none;
   }
+  #nav {
+    display: none;
+  }
 }
 @media screen and (max-width: 576px) {
   .notification {

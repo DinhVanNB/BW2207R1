@@ -287,6 +287,9 @@ body .ic-gift {
 body .offcanvas-start {
   overflow: auto;
 }
+body #offcanvasNavbar {
+  overflow: auto;
+}
 
 @media screen and (max-width: 992px) {
   #nav, .content-main .left-menu {
