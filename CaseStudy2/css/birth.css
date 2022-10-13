@@ -63,7 +63,7 @@ body .header_hotline:hover strong {
   color: #bd2026;
 }
 body .sign_google {
-  background: #fff url(/CaseStudy2/img/google.png) no-repeat 6px 5px;
+  background: #fff url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/google.png) no-repeat 6px 5px;
   border: 1px solid #dedede;
   color: #333;
 }
@@ -73,7 +73,7 @@ body #nav {
 }
 body #nav ul {
   box-shadow: 1px 1px 5px rgb(252, 162, 0) inset;
-  background: url(/CaseStudy2/img/hoa-dao.jpg) top left no-repeat;
+  background: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/hoa-dao.jpg) top left no-repeat;
 }
 body #nav h6 {
   font-size: 13px;
@@ -85,7 +85,7 @@ body #nav h6:hover {
   color: #bd2026;
 }
 body .toggler-btn {
-  background-image: url(/CaseStudy2/img/filter.png);
+  background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/filter.png);
   background-position: left center;
   background-repeat: no-repeat;
   padding-left: 20px;
@@ -105,7 +105,7 @@ body .ibadge {
   position: absolute;
 }
 body .inew {
-  background: transparent url(/CaseStudy2/img/icon-new-small.png) no-repeat;
+  background: transparent url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/icon-new-small.png) no-repeat;
   width: 80px;
   height: 45px;
   right: -6px;
@@ -125,7 +125,7 @@ body .price {
   color: #bd2026;
 }
 body #footer {
-  background-image: url(/CaseStudy2/img/bg-special.png);
+  background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/bg-special.png);
 }
 body .footers {
   max-width: 1140px;
@@ -149,7 +149,7 @@ body .policy a {
   text-decoration: none;
 }
 body .policy ul li a {
-  background-image: url(/CaseStudy2/img/bullet_footer.png);
+  background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/bullet_footer.png);
   background-repeat: no-repeat;
   background-position: left 4px;
   padding-left: 15px;
@@ -209,7 +209,7 @@ body .active {
   border-bottom: 2px solid #bd2026;
 }
 body .filter-items span {
-  background: url(/CaseStudy2/img/f-close.png) right 5px no-repeat;
+  background: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/f-close.png) right 5px no-repeat;
 }
 body .range-price a {
   color: #434343;
@@ -264,25 +264,25 @@ body .nav_2 .nav-item {
   border-bottom: 1px solid #fff;
 }
 body .ic-hyt {
-  background-image: url(/CaseStudy2/img/icon-hyt.png);
+  background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/icon-hyt.png);
 }
 body .ic-dl {
-  background-image: url(/CaseStudy2/img/icon-dl.png);
+  background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/icon-dl.png);
 }
 body .ic-locat {
-  background-image: url(/CaseStudy2/img/icon-lt.png);
+  background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/icon-lt.png);
 }
 body .ic-lhd {
-  background-image: url(/CaseStudy2/img/icon-lhd.png);
+  background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/icon-lhd.png);
 }
 body .ic-sub {
-  background-image: url(/CaseStudy2/img/icon-sub.png);
+  background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/icon-sub.png);
 }
 body .ic-gau {
-  background-image: url(/CaseStudy2/img/icon-gau.png);
+  background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/icon-gau.png);
 }
 body .ic-gift {
-  background-image: url(/CaseStudy2/img/icon-gift.png);
+  background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/icon-gift.png);
 }
 body .offcanvas-start {
   overflow: auto;

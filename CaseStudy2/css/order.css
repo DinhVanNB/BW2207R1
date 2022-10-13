@@ -57,16 +57,16 @@ body .top_menu ul li a {
   background-repeat: no-repeat;
 }
 body .hyt {
-  background-image: url(/CaseStudy2/img/icon-hyt.png);
+  background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/icon-hyt.png);
 }
 body .lhd {
-  background-image: url(/CaseStudy2/img/icon-lhd.png);
+  background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/icon-lhd.png);
 }
 body .cvp {
-  background-image: url(/CaseStudy2/img/icon-plant.png);
+  background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/icon-plant.png);
 }
 body .hct {
-  background-image: url(/CaseStudy2/img/hoa-cat-canh.png);
+  background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/hoa-cat-canh.png);
 }
 body .cart .bi, body .cart span {
   font-size: 18px;
@@ -209,7 +209,7 @@ body .item-daily {
   margin-bottom: 20px;
 }
 body .parallax {
-  background-image: url(/CaseStudy2/img/parallax-bg.jpg);
+  background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/parallax-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -297,7 +297,7 @@ body .footer-content a {
   color: #666;
 }
 body .footercms .footer-icon {
-  background: #2a301b url(/CaseStudy2/img/footer-icons.png) no-repeat scroll;
+  background: #2a301b url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/footer-icons.png) no-repeat scroll;
   margin-bottom: 0;
   float: none;
   height: 70px;
@@ -358,25 +358,25 @@ body .nav_2 .nav-item {
   border-bottom: 1px solid #fff;
 }
 body .ic-hyt {
-  background-image: url(/CaseStudy2/img/icon-hyt.png);
+  background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/icon-hyt.png);
 }
 body .ic-dl {
-  background-image: url(/CaseStudy2/img/icon-dl.png);
+  background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/icon-dl.png);
 }
 body .ic-locat {
-  background-image: url(/CaseStudy2/img/icon-lt.png);
+  background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/icon-lt.png);
 }
 body .ic-lhd {
-  background-image: url(/CaseStudy2/img/icon-lhd.png);
+  background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/icon-lhd.png);
 }
 body .ic-sub {
-  background-image: url(/CaseStudy2/img/icon-sub.png);
+  background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/icon-sub.png);
 }
 body .ic-gau {
-  background-image: url(/CaseStudy2/img/icon-gau.png);
+  background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/icon-gau.png);
 }
 body .ic-gift {
-  background-image: url(/CaseStudy2/img/icon-gift.png);
+  background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/icon-gift.png);
 }
 @media screen and (max-width: 992px) {
   body .item-friendly {
