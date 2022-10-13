@@ -1,0 +1,41 @@
+#container {
+  font-family: "Gotu", sans-serif;
+  font-size: 16px;
+  max-width: 800px;
+  margin: auto;
+}
+#container nav ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  justify-content: space-around;
+}
+#container nav ul li {
+  background-color: lightpink;
+  border: 2px solid;
+  width: 100%;
+  text-align: center;
+  margin-left: -1;
+  transition: 1s;
+  color: #b6001b;
+}
+#container nav ul li a {
+  color: #b6001b;
+  text-decoration: none;
+}
+#container nav ul li:hover {
+  background-color: #b6001b;
+}
+#container nav ul li:hover a {
+  color: lightpink;
+  font-weight: bold;
+}
+#container h1 {
+  color: #b6001b;
+}
+
+@media screen and (max-width: 650px) {
+  #container nav ul {
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=style.css.map */

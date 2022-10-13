@@ -1,0 +1,329 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+h2 {
+  color: #dc4d51;
+}
+
+h6 {
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  width: 100%;
+  border: none;
+  vertical-align: baseline;
+  font: inherit;
+  font-size: 100%;
+  font: "Open Sans", "Poppins", sans-serif;
+  height: auto;
+}
+body a {
+  text-decoration: none;
+}
+body .containers {
+  width: 65%;
+  margin: auto;
+}
+body .top_menu {
+  background-color: #464646;
+  height: 50px;
+  line-height: 50px;
+}
+body .top_menu ul {
+  background-color: #464646;
+  z-index: 100;
+  position: absolute;
+}
+body .top_menu li {
+  padding-right: 5px;
+}
+body .top_menu ul li a {
+  font-size: 14px;
+  color: #fff;
+  padding: 0 24px 0 34px;
+  float: left;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 50px;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+body .hyt {
+  background-image: url(/CaseStudy2/img/icon-hyt.png);
+}
+body .lhd {
+  background-image: url(/CaseStudy2/img/icon-lhd.png);
+}
+body .cvp {
+  background-image: url(/CaseStudy2/img/icon-plant.png);
+}
+body .hct {
+  background-image: url(/CaseStudy2/img/hoa-cat-canh.png);
+}
+body .cart .bi, body .cart span {
+  font-size: 18px;
+  color: #fcb040;
+}
+body .top_header {
+  background-color: #fff;
+  width: 100%;
+}
+body .logo {
+  height: 60px;
+  line-height: 60px;
+}
+body .logo-right {
+  position: relative;
+}
+body .form-search {
+  width: 90%;
+  padding: 0px 5px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 35px;
+  color: #495057;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+body .logo-right .bi {
+  position: absolute;
+  right: 7%;
+  color: #bd2026;
+}
+body .menu {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+body .menu a {
+  color: #555;
+  position: relative;
+}
+body .menu a::before {
+  position: absolute;
+  width: 0;
+  left: 50%;
+  bottom: -5px;
+  height: 2px;
+  background: #d12c4f;
+  content: "";
+  transition: 0.5s all ease;
+}
+body .menu li:hover a {
+  color: #d12c4f;
+}
+body .menu li:hover :before {
+  width: 100%;
+  left: 0;
+}
+body .section {
+  width: 100%;
+}
+body .Friendly {
+  background: #f4dddf;
+  margin-bottom: 5px;
+}
+body .daily-inner {
+  background: #f4e8e9;
+  padding: 10px 0 0 0;
+}
+body h2.d-title {
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+body p.d-title {
+  color: #666;
+  font-weight: 400;
+  padding: 0 0 8px;
+  margin: 0;
+  font-size: 16px;
+  text-align: center;
+}
+body .divider {
+  margin: 0 auto;
+  background-color: #dc4d51;
+  max-width: 300px;
+  height: 3px;
+}
+body h3.d-title {
+  color: #363636;
+  text-align: center;
+  margin-top: 10px;
+}
+body .reason .bi {
+  color: #dc4d51;
+  padding-right: 5px;
+}
+body .category-products {
+  margin: 5px;
+}
+body .category-products h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+}
+body .item-friendly {
+  padding: 0 5px 0 0;
+}
+body .item-title h3 {
+  padding: 10px 0 5px;
+  font-size: 15px;
+  color: #dc4d51;
+  font-weight: 600;
+  height: 36px;
+}
+body .dec-box li {
+  color: #666;
+}
+body .ft-box {
+  background-color: #8dc641;
+  font-size: 14px;
+  line-height: 35px;
+  transition: 0.8s;
+}
+body .ft-box:hover {
+  background-color: #dc4d51;
+}
+body .daily {
+  background-color: #eaf6e7;
+  padding: 20px 0 10px;
+}
+body .daily .daily-inner {
+  background-color: #dbedd7;
+}
+body .item-daily {
+  padding: 0 5px 0 0;
+  margin-bottom: 20px;
+}
+body .parallax {
+  background-image: url(/CaseStudy2/img/parallax-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+body .parallax h2 {
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 10px 0;
+  font-weight: 600;
+  color: #fff;
+  position: relative;
+}
+body .parallax h2:before {
+  position: absolute;
+  display: inline-block;
+  bottom: -2px;
+  left: 40%;
+  width: 160px;
+  height: 3px;
+  background: #3ba84f;
+  content: "";
+}
+body .item-title h3 a {
+  padding: 10px 0 5px;
+  font-size: 15px;
+  color: #555;
+  font-weight: 600;
+  height: 36px;
+}
+body .item-img-info {
+  padding: 5px 5px 10px;
+  border-bottom: 1px solid #dedede;
+  background: #fff;
+}
+body .other-item .item-title {
+  background-color: #fff;
+  padding-bottom: 3px;
+}
+body .other-item {
+  padding-bottom: 10px;
+}
+body .story p {
+  font-size: 14px;
+  margin: 7px 0 8px;
+  padding: 0;
+  color: #666;
+}
+body .story h2 {
+  color: #666;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  position: relative;
+  padding: 0;
+  margin: 0 0 10px;
+}
+body .story h2:before {
+  position: absolute;
+  display: inline-block;
+  bottom: -2px;
+  left: 0%;
+  width: 100px;
+  height: 2px;
+  background: #d12c4f;
+  content: "";
+}
+body .outer-footer {
+  background: #e8e8e8;
+  margin-top: 10px;
+}
+body .outer-footer {
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+}
+body .footercms {
+  margin-bottom: 70px;
+  margin-top: 20px;
+  color: #666;
+}
+body .footer-content a {
+  color: #666;
+}
+body .footercms .footer-icon {
+  background: #2a301b url(/CaseStudy2/img/footer-icons.png) no-repeat scroll;
+  margin-bottom: 0;
+  float: none;
+  height: 70px;
+  width: 70px;
+  transition: all 0.5s ease-in-out;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+body .footer-icon.icon1 {
+  background-position: center 15px;
+}
+body .footer-icon.icon2 {
+  background-position: center -138px;
+}
+body .footer-icon.icon3 {
+  background-position: center -296px;
+}
+@media screen and (max-width: 992px) {
+  body .item-friendly {
+    padding: 0;
+  }
+  body .containers {
+    width: 100%;
+  }
+}/*# sourceMappingURL=order.css.map */

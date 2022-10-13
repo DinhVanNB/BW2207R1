@@ -1,0 +1,338 @@
+$font-style: 'Open Sans', 'Poppins', sans-serif;
+$main-color:#fff;
+$p-color:#666;
+@mixin font-header{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: $font-style;
+}
+@mixin body-style {
+    border:none;
+    vertical-align: baseline;
+    font: inherit;
+    font-size: 100%;
+  
+} 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+} 
+ul,ol{
+    list-style-type: none;
+}
+h2{color: #dc4d51;}
+
+h6{overflow:hidden;}
+img{max-width: 100%;
+    height: auto;
+    }
+body{
+    width: 100%;
+    @include  body-style();
+    font: $font-style;
+    height: auto;
+    a{text-decoration: none;}
+    .containers{
+        width: 65%;
+        margin: auto;
+    }
+    .top_menu{
+        background-color: #464646;
+        height: 50px;
+        line-height: 50px;
+        
+    }
+    .top_menu ul {
+        background-color:#464646;
+        z-index: 100;  
+        position: absolute;
+    }
+    .top_menu li {padding-right: 5px;}
+    .top_menu ul li a{     
+        font-size: 14px;
+        color: #fff;
+        padding: 0 24px 0 34px;
+        float: left;
+        text-transform: uppercase;
+        font-weight: 600;
+        line-height: 50px;
+        background-position: left center;
+        background-repeat: no-repeat;
+    }
+    .hyt{
+        background-image: url(/CaseStudy2/img/icon-hyt.png);
+    }
+    .lhd{
+        background-image: url(/CaseStudy2/img/icon-lhd.png);
+    }
+    .cvp{
+        background-image: url(/CaseStudy2/img/icon-plant.png);
+    }
+    .hct{
+        background-image: url(/CaseStudy2/img/hoa-cat-canh.png);
+    }
+    .cart .bi, .cart span{
+        font-size: 18px;
+        color: #fcb040;
+    }
+    //end top menu
+    .top_header{
+        background-color: #fff;
+        width: 100%;   
+    }
+   
+    .logo{
+        height:60px;
+        line-height: 60px;
+    }
+    .logo-right {
+        position: relative;
+    }  
+    .form-search {
+        width: 90%;
+        padding: 0px 5px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 35px;
+        color: #495057;
+        border: 1px solid #ced4da;
+        border-radius:4px;
+    }
+    .logo-right .bi{
+        position:absolute;
+        right:7%;
+        color:#bd2026;
+    }
+    .menu{
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 1px; 
+    }
+    .menu a{
+        color: #555;
+        position: relative;
+    }
+    .menu a::before {
+        position: absolute;
+        width: 0;
+        left: 50%;
+        bottom: -5px;
+        height: 2px;
+        background: #d12c4f;
+        content: '';
+        transition: .5s all ease;
+    }
+    .menu li:hover a{color:#d12c4f;
+    }
+    .menu li:hover :before {
+        width: 100%;
+        left:0;
+    }
+    //end nav mennu header
+    .section {
+        width: 100%;
+    }
+    .Friendly{
+        background: #f4dddf;
+        margin-bottom: 5px;
+    }
+    .daily-inner{
+        background: #f4e8e9;
+        
+        padding: 10px 0 0 0;
+    }
+    h2.d-title{
+        font-size: 26px;
+        font-weight: 600;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    p.d-title{
+        color:$p-color;
+        font-weight: 400;
+        padding: 0 0 8px;
+        margin: 0;
+        font-size: 16px;
+        text-align: center;
+
+    }
+    .divider{
+        margin: 0 auto;
+        background-color: #dc4d51;
+        max-width:300px;
+        height: 3px;
+        
+    }
+    h3.d-title{
+        color:#363636;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .reason .bi{
+        color: #dc4d51;
+        padding-right: 5px;
+    }
+    .category-products{margin: 5px;}
+    .category-products h2{text-transform: uppercase;
+        text-align: center;
+        font-size: 24px;
+        
+    }
+    .item-friendly{padding: 0 5px 0 0;}
+    
+    .item-title h3{
+        padding: 10px 0 5px;
+        font-size: 15px;
+        color: #dc4d51;
+        font-weight: 600;
+        height: 36px;
+    }
+    .dec-box li{color: $p-color;}
+    .ft-box {
+        background-color: #8dc641;
+        font-size: 14px;
+        line-height: 35px;
+        transition: .8s;
+    }
+    
+    .ft-box:hover{
+        background-color:#dc4d51;
+    }
+    //end friendly
+    .daily{background-color:#eaf6e7 ;
+        padding: 20px 0 10px;}
+    .daily .daily-inner{
+        background-color:#dbedd7 ;
+    }
+    .item-daily{
+        padding: 0 5px 0 0;
+        margin-bottom: 20px;
+    }
+    //end daily
+    .parallax{
+        background-image: url(/CaseStudy2/img/parallax-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .parallax h2{
+        text-align: center;
+        font-size: 24px;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 10px 0;
+        font-weight: 600;
+        color: #fff;
+        position: relative;
+    }
+    .parallax h2:before {
+        position: absolute;
+        display: inline-block;
+        bottom: -2px;
+        left: 40%;
+        width: 160px;
+        height: 3px;
+        background: #3ba84f;
+        content: '';
+    }
+    
+
+    .item-title h3 a{
+        padding: 10px 0 5px;
+        font-size: 15px;
+        color: #555;
+        font-weight: 600;
+        height: 36px;
+    }
+    
+    .item-img-info{
+        padding: 5px 5px 10px;
+        border-bottom: 1px solid #dedede;
+        background: #fff;
+    }
+    .other-item .item-title{
+        background-color: #fff;
+        padding-bottom: 3px;
+    }
+    .other-item{
+        padding-bottom: 10px;
+    }
+    //
+
+    .story p{
+        font-size: 14px;
+        margin: 7px 0 8px;
+        padding: 0;
+        color: $p-color;
+    }
+    .story h2 {
+        color: $p-color;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 600;
+        position: relative;
+        padding: 0;
+        margin: 0 0 10px;
+    }
+    .story h2:before {
+            position: absolute;
+            display: inline-block;
+            bottom: -2px;
+            left: 0%;
+            width: 100px;
+            height: 2px;
+            background: #d12c4f;
+            content: '';
+        }
+    .outer-footer {
+            background: #e8e8e8;
+            margin-top: 10px;
+            
+     }
+     .outer-footer  {
+       
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+
+    .footercms {
+        margin-bottom: 70px;
+        margin-top: 20px;
+        color: $p-color;
+    }
+    .footer-content a{color: $p-color};
+     .footercms .footer-icon {
+        background: #2a301b url(/CaseStudy2/img/footer-icons.png) no-repeat scroll;
+        margin-bottom: 0;
+        float: none;
+        height: 70px;
+        width: 70px;
+        transition: all .5s ease-in-out;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+    .footer-icon.icon1{
+        background-position: center 15px;
+    }
+    .footer-icon.icon2 {
+        background-position: center -138px;
+    }
+    .footer-icon.icon3 {
+        background-position: center -296px;
+    }
+    @media screen and (max-width:992px) {
+        .item-friendly {
+            padding: 0;
+        }
+        .containers{
+            width: 100%;
+        }
+    }
+}

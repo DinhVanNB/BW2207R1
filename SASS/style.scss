@@ -1,0 +1,27 @@
+$main-color:rgb(165,0,0);
+$second-color:rgb(142,241,142);
+@mixin common-style {
+    border:none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 80%;
+}
+div{
+    background-color: $second-color;
+   @include common-style();
+   h1{
+    color: $main-color;
+    }
+    p{
+        color: $main-color;
+    }
+    button{
+        color:$second-color;
+        background-color: $main-color;
+        @include common-style();
+    }
+    button:hover{
+        color:$main-color;
+        background-color: $second-color;
+    }
+}

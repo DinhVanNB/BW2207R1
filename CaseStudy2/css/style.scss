@@ -1,0 +1,346 @@
+$font-style: 'Open Sans', 'Poppins', sans-serif;
+$main-color:#fff;
+$p-color:#434343;
+@mixin font-header{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: $font-style;
+}
+@mixin body-style {
+    border:none;
+    vertical-align: baseline;
+    font: inherit;
+    font-size: 100%;
+  
+} 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+} 
+ul,ol{
+    list-style-type: none;
+}
+h2{color: #bd2026;}
+
+h6{overflow:hidden;}
+img{max-width: 100%;
+    height: auto;
+    }
+body{
+    @include  body-style();
+    font: $font-style;
+    height: auto;
+     a{text-decoration: none;}
+    .header_top {
+        background-color: rgb(252,162,0) ;
+        height:32px;
+        line-height: 32px;
+        color: $main-color;
+        @include font-header();
+    }
+    .header_top .container , .header_top .row
+    {
+        height:32px;
+        line-height: 32px;
+    }
+    .header_top ul {
+        z-index:101 ;
+    }
+    .header_top .navbar{
+        line-height: 32px;
+        padding: 0;
+        // display: none;
+    }
+    .nav_2{background-color: #464646;
+    
+    }
+    .nav_2 li a {
+        font-size: 14px;
+        color: white;
+    }
+    .title_nav{border-bottom: 1px solid #464646;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #555;
+        }
+     p.sb_main_h ,.sb_main_nav .col-12 {
+        display: inline-block; 
+        padding: 8px 10px;
+    }
+    .sb_main_nav li a{
+        display: inline-block; 
+        padding: 8px 10px;
+        color: #555;
+    }
+    .sb_sub_nav{
+        display: none;
+    
+    }
+    .offcanvas-start .nav-item:hover .sb_sub_nav{
+        display:block;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .plusminus {color: #bd2026;}
+    .nav_2 .nav-item{
+        background-position: center left 0px;
+        background-repeat: no-repeat;
+        padding-left: 20px;
+        border-bottom: 1px solid #fff;
+    }
+    .ic-hyt{background-image: url(/CaseStudy2/img/icon-hyt.png);}
+    .ic-dl{background-image: url(/CaseStudy2/img/icon-dl.png);}
+    .ic-locat{background-image: url(/CaseStudy2/img/icon-lt.png);}
+    .ic-lhd {background-image: url(/CaseStudy2/img/icon-lhd.png);}
+    .ic-sub{background-image: url(/CaseStudy2/img/icon-sub.png);}
+    .ic-gau{background-image: url(/CaseStudy2/img/icon-gau.png);}
+    .ic-gift{background-image: url(/CaseStudy2/img/icon-gift.png);}
+    .offcanvas-start{overflow: auto;
+    }
+
+    // end header top
+    .header_mid{
+        height: 70px;
+        
+        font-size: 13px;
+        font-weight: bold;
+        font-family: $font-style;
+    }
+    .header_mid>.container>.row>div{
+        height: 70px;
+    }
+    .brand-tab {
+        text-decoration: none;
+        color: #bd2026;
+    }
+    .brand-tab hr{
+        height: 3px;
+        margin-top: -15px;
+        background-color: red;
+        display:none;
+
+    }
+    .brand-tab:hover p{
+        border-bottom: 2px solid #bd2026;
+        color: #bd2026;
+    }
+    .brand-tab:hover hr{
+        display: block;
+        z-index: 2;
+    }    
+    .brand-img{
+        padding: 0 10px;
+    }
+    // end header mid
+    .fixed{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background-color: #fff;
+        box-shadow: 0 2px 5px #0000001a!important;
+    }
+    .header_hotline a{
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $p-color;
+    }
+    .header_hotline p{color:rgb(252,162,0) ;}
+    .header_hotline:hover strong{
+        color: #bd2026;
+    }
+    .sign_google{
+        background: #fff url(/CaseStudy2/img/google.png) no-repeat 6px 5px;
+        border: 1px solid #dedede;
+        color: #333;
+    }
+    //end header bottom
+    #nav    {
+        height: 35px;
+        box-shadow: 2px 2px 15px rgb(252,162,0) inset;
+    }
+    #nav ul{box-shadow: 1px 1px 5px rgb(252,162,0) inset;
+    background: url(/CaseStudy2/img/hoa-dao.jpg) top left no-repeat;}
+    #nav h6{
+        font-size: 13px;
+        font-weight: 600;
+        height: 35px ;
+        line-height: 35px;
+    }
+    #nav h6:hover {
+        color: #bd2026;
+    }
+    //end nav
+    #banner .container{
+        position: relative;
+    }
+    
+   
+     
+    .filter{
+        width: 470px;
+        background: #de1b57;
+        padding: 15px 20px;
+        position: absolute;
+        right: 10%;
+        top: 60px;
+        z-index: 99;
+      }
+      //end banner
+      .icon_flower >div{
+        margin: 0 auto;
+        max-width: 1140px;
+        position: relative;
+        display: block;
+      }
+      .icon_flower li:hover img{
+        transform: scale(1.1);
+        transition: all 1s ease;
+      }
+      .article{
+        max-width: 1140px;
+        margin: 0 auto;
+      }
+      .promotion{
+        background-color: #ffe6dd;
+        width: 100%;
+      }
+      .item{
+        position: relative;
+      }
+      .ibadge {
+        display: block;
+        text-transform: uppercase;
+        color: #fff;
+        position: absolute;
+    }
+    .inew{
+        background: transparent url(/CaseStudy2/img/icon-new-small.png) no-repeat ;
+        width: 80px;
+        height: 45px;
+        right: -6px;
+        top: -3px;
+    }
+    .isale{
+        padding: 2px 8px;
+        top: 3px;
+        background-color: #7f44a2;
+        z-index: 10;
+    }
+    .item:hover img{
+        transform: scale(1.1);
+        transition: all 1s ease;
+    }
+    .price{
+        color: #bd2026;      
+    }
+    .data-top-link a{
+        text-decoration: none;
+        color: $p-color ;
+    } 
+    .data-top-link a:hover {
+        color: blue;
+    } 
+    .express{
+        background-color: #d4e9ff;
+    }
+    //end express
+
+    .ads-trends{
+        background-color: #ffefea;
+    }
+    .ads-trends-banner{
+        background-color: #ebebeb;
+    }
+    //end banner ads
+    .h3-service{
+        position: relative;
+    }
+    .h3-service::before {
+        position: absolute;
+        display: inline-block;
+        bottom: 0;  
+        left: calc(50% - 40px);
+        width: 80px;
+        height: 3px;
+        background: #f3a9c3;
+        content: '';     
+    }
+    .services img{
+        width: 40px;
+        height: 40px;
+    }
+    .service-text{
+        font-size: 13px;
+    }
+    #footer {background-image: url(/CaseStudy2/img/bg-special.png);}
+    .footers{
+        max-width:1140px ;
+    }
+    .footers h2, h3, h4, h5, h6 {
+        font-size: 15px;
+        text-transform:uppercase;
+    }
+    .footers p, strong{
+        font-size: 14px;
+        margin:5px 0;
+    }
+    .vendor strong , .vendor a, .str{
+        color: #bd2026;
+        text-decoration: none;
+    }
+    .policy ul {padding: 0;}
+    .policy a{
+        text-decoration: none;
+    }
+    .policy ul li a{
+        background-image: url(/CaseStudy2/img/bullet_footer.png);
+        background-repeat: no-repeat;
+        background-position: left 4px;
+        padding-left: 15px;
+        color: $p-color;
+    }
+    .social img{
+        width: 38px;
+    }
+    .ft-titlle {
+        font-size: 18px;
+        text-transform: uppercase;
+        position: relative;
+        padding: 10px 0;
+        margin-bottom: 15px;
+    }
+    .ft-titlle::before{
+        position: absolute;
+        display: inline-block;
+        bottom: 0;
+        left: calc(50% - 80px);
+        width: 160px;
+        height: 3px;
+        background: #bd2026;
+        content: '';
+    }
+    .notification h3{
+        font-weight: 600;
+        color: #707070;
+        background-image: url(/CaseStudy2/img/icon-hyt.png);
+        background-repeat: no-repeat;
+        background-position: left 4px;
+        padding: 8px 0 8px 30px;
+    }
+    //end footer
+}
+@media screen and (max-width:992px) {
+    .filter, .header_mid     {display: none;} 
+    // .header_top .navbar{display: block;}
+} 
+@media screen and (max-width:576px) {
+    .notification     {display: none;} 
+           
+} 
+
+
+

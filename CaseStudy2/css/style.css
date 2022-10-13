@@ -1,0 +1,353 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+h2 {
+  color: #bd2026;
+}
+
+h6 {
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  border: none;
+  vertical-align: baseline;
+  font: inherit;
+  font-size: 100%;
+  font: "Open Sans", "Poppins", sans-serif;
+  height: auto;
+}
+body a {
+  text-decoration: none;
+}
+body .header_top {
+  background-color: rgb(252, 162, 0);
+  height: 32px;
+  line-height: 32px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Open Sans", "Poppins", sans-serif;
+}
+body .header_top .container, body .header_top .row {
+  height: 32px;
+  line-height: 32px;
+}
+body .header_top ul {
+  z-index: 101;
+}
+body .header_top .navbar {
+  line-height: 32px;
+  padding: 0;
+}
+body .nav_2 {
+  background-color: #464646;
+}
+body .nav_2 li a {
+  font-size: 14px;
+  color: white;
+}
+body .title_nav {
+  border-bottom: 1px solid #464646;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #555;
+}
+body p.sb_main_h, body .sb_main_nav .col-12 {
+  display: inline-block;
+  padding: 8px 10px;
+}
+body .sb_main_nav li a {
+  display: inline-block;
+  padding: 8px 10px;
+  color: #555;
+}
+body .sb_sub_nav {
+  display: none;
+}
+body .offcanvas-start .nav-item:hover .sb_sub_nav {
+  display: block;
+  display: flex;
+  flex-direction: column;
+}
+body .plusminus {
+  color: #bd2026;
+}
+body .nav_2 .nav-item {
+  background-position: center left 0px;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  border-bottom: 1px solid #fff;
+}
+body .ic-hyt {
+  background-image: url(/CaseStudy2/img/icon-hyt.png);
+}
+body .ic-dl {
+  background-image: url(/CaseStudy2/img/icon-dl.png);
+}
+body .ic-locat {
+  background-image: url(/CaseStudy2/img/icon-lt.png);
+}
+body .ic-lhd {
+  background-image: url(/CaseStudy2/img/icon-lhd.png);
+}
+body .ic-sub {
+  background-image: url(/CaseStudy2/img/icon-sub.png);
+}
+body .ic-gau {
+  background-image: url(/CaseStudy2/img/icon-gau.png);
+}
+body .ic-gift {
+  background-image: url(/CaseStudy2/img/icon-gift.png);
+}
+body .offcanvas-start {
+  overflow: auto;
+}
+body .header_mid {
+  height: 70px;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Open Sans", "Poppins", sans-serif;
+}
+body .header_mid > .container > .row > div {
+  height: 70px;
+}
+body .brand-tab {
+  text-decoration: none;
+  color: #bd2026;
+}
+body .brand-tab hr {
+  height: 3px;
+  margin-top: -15px;
+  background-color: red;
+  display: none;
+}
+body .brand-tab:hover p {
+  border-bottom: 2px solid #bd2026;
+  color: #bd2026;
+}
+body .brand-tab:hover hr {
+  display: block;
+  z-index: 2;
+}
+body .brand-img {
+  padding: 0 10px;
+}
+body .fixed {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1019607843) !important;
+}
+body .header_hotline a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #434343;
+}
+body .header_hotline p {
+  color: rgb(252, 162, 0);
+}
+body .header_hotline:hover strong {
+  color: #bd2026;
+}
+body .sign_google {
+  background: #fff url(/CaseStudy2/img/google.png) no-repeat 6px 5px;
+  border: 1px solid #dedede;
+  color: #333;
+}
+body #nav {
+  height: 35px;
+  box-shadow: 2px 2px 15px rgb(252, 162, 0) inset;
+}
+body #nav ul {
+  box-shadow: 1px 1px 5px rgb(252, 162, 0) inset;
+  background: url(/CaseStudy2/img/hoa-dao.jpg) top left no-repeat;
+}
+body #nav h6 {
+  font-size: 13px;
+  font-weight: 600;
+  height: 35px;
+  line-height: 35px;
+}
+body #nav h6:hover {
+  color: #bd2026;
+}
+body #banner .container {
+  position: relative;
+}
+body .filter {
+  width: 470px;
+  background: #de1b57;
+  padding: 15px 20px;
+  position: absolute;
+  right: 10%;
+  top: 60px;
+  z-index: 99;
+}
+body .icon_flower > div {
+  margin: 0 auto;
+  max-width: 1140px;
+  position: relative;
+  display: block;
+}
+body .icon_flower li:hover img {
+  transform: scale(1.1);
+  transition: all 1s ease;
+}
+body .article {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+body .promotion {
+  background-color: #ffe6dd;
+  width: 100%;
+}
+body .item {
+  position: relative;
+}
+body .ibadge {
+  display: block;
+  text-transform: uppercase;
+  color: #fff;
+  position: absolute;
+}
+body .inew {
+  background: transparent url(/CaseStudy2/img/icon-new-small.png) no-repeat;
+  width: 80px;
+  height: 45px;
+  right: -6px;
+  top: -3px;
+}
+body .isale {
+  padding: 2px 8px;
+  top: 3px;
+  background-color: #7f44a2;
+  z-index: 10;
+}
+body .item:hover img {
+  transform: scale(1.1);
+  transition: all 1s ease;
+}
+body .price {
+  color: #bd2026;
+}
+body .data-top-link a {
+  text-decoration: none;
+  color: #434343;
+}
+body .data-top-link a:hover {
+  color: blue;
+}
+body .express {
+  background-color: #d4e9ff;
+}
+body .ads-trends {
+  background-color: #ffefea;
+}
+body .ads-trends-banner {
+  background-color: #ebebeb;
+}
+body .h3-service {
+  position: relative;
+}
+body .h3-service::before {
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  left: calc(50% - 40px);
+  width: 80px;
+  height: 3px;
+  background: #f3a9c3;
+  content: "";
+}
+body .services img {
+  width: 40px;
+  height: 40px;
+}
+body .service-text {
+  font-size: 13px;
+}
+body #footer {
+  background-image: url(/CaseStudy2/img/bg-special.png);
+}
+body .footers {
+  max-width: 1140px;
+}
+body .footers h2, body h3, body h4, body h5, body h6 {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+body .footers p, body strong {
+  font-size: 14px;
+  margin: 5px 0;
+}
+body .vendor strong, body .vendor a, body .str {
+  color: #bd2026;
+  text-decoration: none;
+}
+body .policy ul {
+  padding: 0;
+}
+body .policy a {
+  text-decoration: none;
+}
+body .policy ul li a {
+  background-image: url(/CaseStudy2/img/bullet_footer.png);
+  background-repeat: no-repeat;
+  background-position: left 4px;
+  padding-left: 15px;
+  color: #434343;
+}
+body .social img {
+  width: 38px;
+}
+body .ft-titlle {
+  font-size: 18px;
+  text-transform: uppercase;
+  position: relative;
+  padding: 10px 0;
+  margin-bottom: 15px;
+}
+body .ft-titlle::before {
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  left: calc(50% - 80px);
+  width: 160px;
+  height: 3px;
+  background: #bd2026;
+  content: "";
+}
+body .notification h3 {
+  font-weight: 600;
+  color: #707070;
+  background-image: url(/CaseStudy2/img/icon-hyt.png);
+  background-repeat: no-repeat;
+  background-position: left 4px;
+  padding: 8px 0 8px 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .filter, .header_mid {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .notification {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */

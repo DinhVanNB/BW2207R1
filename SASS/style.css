@@ -1,0 +1,25 @@
+div {
+  background-color: rgb(142, 241, 142);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 80%;
+}
+div h1 {
+  color: rgb(165, 0, 0);
+}
+div p {
+  color: rgb(165, 0, 0);
+}
+div button {
+  color: rgb(142, 241, 142);
+  background-color: rgb(165, 0, 0);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 80%;
+}
+div button:hover {
+  color: rgb(165, 0, 0);
+  background-color: rgb(142, 241, 142);
+}/*# sourceMappingURL=style.css.map */
