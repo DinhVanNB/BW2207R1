@@ -155,6 +155,9 @@ body .policy ul li a {
   padding-left: 15px;
   color: #434343;
 }
+body .policy .form .emailip {
+  width: 80%;
+}
 body .social img {
   width: 38px;
 }

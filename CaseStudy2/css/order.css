@@ -382,15 +382,13 @@ body .ic-gift {
   body .item-friendly {
     padding: 0;
   }
+  body .menu_hide {
+    display: none;
+  }
   body .nav-menu {
     display: none;
   }
   body .containers {
     width: 100%;
-  }
-}
-@media screen and (max-width: 1250px) {
-  body .menu_hide {
-    display: none;
   }
 }/*# sourceMappingURL=order.css.map */

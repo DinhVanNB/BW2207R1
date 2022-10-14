@@ -382,16 +382,13 @@ body{
         .item-friendly {
             padding: 0;
         }
+        .menu_hide{
+            display: none;
+        }
         .nav-menu{display: none;}
         .containers{
             width: 100%;
         }
     }
-    @media screen and (max-width:1250px) {
-        
-        .menu_hide{
-            display: none;
-        }
-        
-    }
+    
 }
