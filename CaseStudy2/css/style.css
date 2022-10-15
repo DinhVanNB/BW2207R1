@@ -174,9 +174,11 @@ body #nav {
   height: 35px;
   box-shadow: 2px 2px 15px rgb(252, 162, 0) inset;
 }
-body #nav ul {
+body #nav ul.dropdown-menu {
   box-shadow: 1px 1px 5px rgb(252, 162, 0) inset;
-  background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/hoa-dao.jpg) top left no-repeat;
+  background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/hoa-dao.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
 }
 body #nav h6 {
   font-size: 13px;
