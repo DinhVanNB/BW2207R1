@@ -154,7 +154,9 @@ body{
     }
     .sign_google{
         background: #fff;
-        background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/google.png) no-repeat 6px 5px;
+        background-image: url(https://dinhvannb.github.io/BW2207R1/CaseStudy2/img/google.png);
+        background-repeat: no-repeat;
+        background-position: 6px 5px;
         border: 1px solid #dedede;
         color: #333;
     }
