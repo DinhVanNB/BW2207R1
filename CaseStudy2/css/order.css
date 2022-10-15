@@ -229,7 +229,7 @@ body .parallax h2:before {
   position: absolute;
   display: inline-block;
   bottom: -2px;
-  left: 40%;
+  left: 35%;
   width: 160px;
   height: 3px;
   background: #3ba84f;
@@ -284,6 +284,8 @@ body .outer-footer {
   margin-top: 10px;
 }
 body .outer-footer {
+  word-wrap: break-word;
+  word-break: break-word;
   text-align: center;
   margin: auto;
   margin-top: 10px;
@@ -380,6 +382,9 @@ body .ic-gift {
 }
 @media screen and (max-width: 992px) {
   body .item-friendly {
+    padding: 0;
+  }
+  body .parallax ul {
     padding: 0;
   }
   body .menu_hide {

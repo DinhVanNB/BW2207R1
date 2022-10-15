@@ -231,7 +231,7 @@ body{
         position: absolute;
         display: inline-block;
         bottom: -2px;
-        left: 40%;
+        left: 35%;
         width: 160px;
         height: 3px;
         background: #3ba84f;
@@ -292,7 +292,8 @@ body{
             
      }
      .outer-footer  {
-       
+        word-wrap:break-word;
+        word-break:break-word;
         text-align: center;
         margin: auto;
         margin-top: 10px;
@@ -382,6 +383,7 @@ body{
         .item-friendly {
             padding: 0;
         }
+        .parallax ul{padding: 0;}
         .menu_hide{
             display: none;
         }
